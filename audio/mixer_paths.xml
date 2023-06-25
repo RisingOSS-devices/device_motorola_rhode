@@ -384,9 +384,9 @@
     <ctl name="HPHL Volume" value="20" />
     <ctl name="HPHR Volume" value="20" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="102" />
+    <ctl name="TX_DEC1 Volume" value="98" />
+    <ctl name="TX_DEC2 Volume" value="98" />
     <ctl name="TX_DEC3 Volume" value="84" />
     <!-- ctl name="TX_DEC4 Volume" value="84" />
     <ctl name="TX_DEC5 Volume" value="84" />
@@ -2422,6 +2422,7 @@
     <path name="voicemmode1-call">
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
+        <ctl name="TX_DEC2 Volume" value="120" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="voicemmode1-call speaker">
@@ -2493,6 +2494,7 @@
     <path name="voicemmode2-call">
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
+        <ctl name="TX_DEC2 Volume" value="120" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="voicemmode2-call speaker">
@@ -3449,6 +3451,7 @@
         <ctl name="TX SMIC MUX2" value="SWR_MIC4" />
         <ctl name="ADC2 MUX" value="INP3" />
         <ctl name="ADC2_MIXER Switch" value="1" />
+        <ctl name="TX_DEC2 Volume" value="118" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -3462,6 +3465,7 @@
         <ctl name="TX DEC2 MUX" value="SWR_MIC" />
         <ctl name="TX SMIC MUX2" value="SWR_MIC0" />
         <ctl name="ADC1_MIXER Switch" value="1" />
+        <ctl name="TX_DEC2 Volume" value="124" /> <!-- Noise cancellation mic -->
     </path>
 
     <path name="camcorder-mic-bf">
