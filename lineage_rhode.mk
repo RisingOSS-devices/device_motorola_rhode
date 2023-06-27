@@ -32,4 +32,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="rhode_g-user 12 S1SRS32.38-132-11 25db02-2ac28c release-keys"
 
 # Rising props
-RISING_MAINTAINER := FpSensor × Dhruv00
+RISING_MAINTAINER := FPSensor&Dhruv00
